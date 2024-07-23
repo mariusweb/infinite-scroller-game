@@ -1,0 +1,26 @@
+# Godot-specific files
+.import/
+.export/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.tmp
+*.swap
+*.old
+
+# Ignore export templates
+*.exe
+*.pck
+*.zip
+*.apk
+*.aab
+*.dmg
+*.tar.gz
+*.x86_64
+*.arm64
+
+# Ignore logs
+logs/

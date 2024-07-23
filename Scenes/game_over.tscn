@@ -1,0 +1,48 @@
+[gd_scene load_steps=4 format=3 uid="uid://nwnuj2rvwm7r"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g15p6"]
+bg_color = Color(0, 0.811765, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.898039, 0.807843, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jocgi"]
+bg_color = Color(0.913725, 0.717647, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0.937255, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sj110"]
+bg_color = Color(0, 0.882353, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.956863, 0.780392, 0, 1)
+
+[node name="GameOver" type="CanvasLayer"]
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -37.5
+offset_top = -15.5
+offset_right = 37.5
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_g15p6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_jocgi")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_sj110")
+text = "RESTART"

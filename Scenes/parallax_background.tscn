@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://8ewt4r4l1kb2"]
+
+[ext_resource type="Texture2D" uid="uid://p5lygufp7frg" path="res://Assets/Pixel Adventures 1/Background/Purple.png" id="1_bdo7s"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.9, 1)
+motion_mirroring = Vector2(480, 0)
+
+[node name="TextureRect" type="TextureRect" parent="ParallaxLayer"]
+texture_filter = 1
+offset_right = 480.0
+offset_bottom = 720.0
+texture = ExtResource("1_bdo7s")

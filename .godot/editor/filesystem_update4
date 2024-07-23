@@ -1,0 +1,11 @@
+res://Scenes/world.tscn
+res://Scenes/player.tscn
+res://Scenes/platform.tscn
+res://Scenes/box.tscn
+res://Scenes/hud.tscn
+res://Scenes/walls.tscn
+res://Scenes/saw.tscn
+res://Scripts/world.gd
+res://Scripts/saw.gd
+res://Scenes/game_over.tscn
+res://Scripts/player.gd
