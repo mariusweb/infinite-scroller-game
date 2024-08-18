@@ -24,3 +24,60 @@ Thumbs.db
 
 # Ignore logs
 logs/
+
+# Godot-specific
+.import/
+.export/
+*.godot.import
+*.godot/.mono/
+*.mono/
+*.mono/Temp/
+*.mono/obj/
+*.mono/bin/
+*.mono/Logs/
+*.mono/Cache/
+
+# Operating system-specific
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Logs
+logs/
+*.log
+
+# Cache files
+.cache/
+*.stackdump
+
+# Godot 4
+.godot/scripting_cache/
+.godot/scripting_error_cache/
+
+# Mono/C# specific
+*.csproj
+*.sln
+*.userprefs
+*.pidb
+.mono/
+.mono/Temp/
+.mono/obj/
+.mono/bin/
+.mono/Logs/
+.mono/Cache/
+*.pdb
+*.mdb
+*.csproj.user
+.vscode/
+.idea/
+.vscode/settings.json
+.vscode/launch.json
+
+# JetBrains Rider specific
+.idea/
